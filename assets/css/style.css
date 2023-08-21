@@ -1,0 +1,491 @@
+* {
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+   
+}
+.btns {
+    text-transform: capitalize;
+    border-radius: 12px;
+    background: #02CDCF;
+    padding: 18px 32px;
+    gap: 10px;
+}
+
+.btns:hover {
+    color: #02CDCF;
+    background-color: #ffffff;
+}
+.hero_bg_img {
+    background-image: url(../image/png/Groupimg55.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg_img {
+    background-image: url(../image/png/imgGroup35.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navlogo {
+    z-index: 1900;
+    cursor: pointer;
+}
+
+.underline_nav::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    background-color: #fff;
+    transition: all 300ms;
+    margin: 0 auto;
+}
+
+.underline_nav:hover::after {
+    width: 100%;
+}
+
+.mrtop-40 {
+    margin-top: -60px;
+}
+
+.cards1 {
+    border-radius: 32px !important;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 1px solid #FCFCFC;
+    background: lightgray 50% / cover no-repeat, rgba(255, 255, 255, 0.04);
+    max-width: 1320px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 80px;
+
+    border: 2px solid grey;
+    border-radius: 32px;
+    height: 810px;
+    overflow-y: scroll;
+}
+
+.cards1::-webkit-scrollbar {
+    display: none;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.boxs1 {
+    border-radius: 16px;
+    border: 1px solid rgba(252, 252, 252, 0.40);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.06) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 1px 1px 24px 1px rgba(0, 0, 0, 0.10);
+    width: 364px;
+    padding: 24px;
+}
+
+.boxs2 {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(252, 252, 252, 0.40);
+    background: #FFF;
+    box-shadow: 1px 1px 24px 1px rgba(0, 0, 0, 0.10);
+    width: 364px;
+    padding: 24px;
+    height: 364px;
+    transform: translateY(102%);
+}
+
+.sliderss2 {
+    transform: translateY(25%);
+}
+
+.sliderss {
+    z-index: 2;
+}
+
+.sliderss .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.pb_150 {
+    padding-bottom: 150px;
+    padding-top: 90px;
+}
+
+.sliderss .slick-list::after {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: black;
+}
+
+.box1 {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16);
+    display: flex;
+    width: 340px;
+    height: 220px;
+    padding: 53px 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero2_bg_img {
+    background-image: url(../image/png/bg-imgFrame21.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imggrupf {
+    border-radius: 100%;
+}
+
+.ellips {
+    width: 228px;
+    height: 245px;
+    position: absolute;
+    border-radius: 302px;
+    background: var(--green, #02CDCF);
+    filter: blur(212px);
+}
+
+.ellips1 {
+    right: 10px;
+    top: 10px;
+}
+
+.ellips2 {
+    right: 10px;
+    top: 10px;
+}
+.ellips3 {
+    left: 10px;
+    top: 10px;
+}
+.ellips4 {
+    right: 10px;
+    top: 5px;
+
+}
+.ellips5 {
+    left: 10px;
+    top: 10px;
+}
+.ellips6 {
+    right: 10px;
+    top: 1px;
+}
+.ellips7 {
+    right: 10px;
+    top: 1px;
+}
+.ellips8 {
+    left: 10px;
+    top: 1px;
+}
+.ellips9 {
+    left: 10px;
+    top: 1px;
+}
+.ellips10 {
+    right: 5px;
+    top: 1px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #02CDCF;
+    top: 0;
+    bottom: 20px;
+    left: 0;
+    margin-left: -3px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* timelineContainer around content */
+.timelineContainer {
+    padding: 0px 12px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+/* The circles on the timeline */
+.timelineContainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #ffffff;
+    border: 4px solid #ffffff;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the timelineContainer to the right */
+.right {
+    left: 0;
+}
+
+/* Fix the circle for timelineContainers on the right side */
+
+.left::after {
+    left: -12px;
+    top: 32%;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: ;
+    position: relative;
+    border-radius: 6px;
+}
+
+.roadmap {
+    height: 490px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.roadmap::-webkit-scrollbar {
+    display: none;
+}
+
+.footr {
+    cursor: pointer;
+}
+
+.fb-icon:hover svg path {
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.tw-icon:hover svg path {
+    fill: #ffffff;
+    cursor: pointer;
+}
+
+.tw-icon:hover svg path {
+    stroke: #ffffff;
+    cursor: pointer;
+}
+
+.ftr-icon:hover svg path {
+    stroke: #ffffff;
+    cursor: pointer;
+}
+
+.tw-icon {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+.bordr-bottom {
+    border-bottom: 2px solid white;
+    padding-bottom: 24px;
+}
+
+.footer_undrline::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    background-color: #fff;
+    transition: all 300ms;
+    margin: 0 auto;
+}
+
+.footer_undrline:hover::after {
+    width: 100%;
+}
+
+/* bottom-to-top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+/* #myBtn-hover  */
+button:hover svg path{
+    fill: #02cdcf;
+}
+button:hover svg circle{
+    fill: #fff;
+}
+
+/* preloader */
+#preloader-box {
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    z-index: 7000 !important;
+}
+
+.loder-img {
+    animation: spin 4s linear infinite;
+}
+
+.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* tooltip */
+.tool {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tool .toltip {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+        left: 50%;
+        margin-left: -90px;
+}
+ 
+.tool:hover .toltip {
+    visibility: visible;
+}
+
+@media (min-width:320px) {
+    .boxs2{
+        transform: translateY(22%);
+    }
+}
+@media (min-width:992px) {
+    .boxs2{
+        transform: translateY(102%);
+    }
+}
+@media (max-width:992px) {
+    .hero_bg_img {
+        background-image: url(../image/png/Groupimg55.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav_bar1 {
+        left: -100%;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center !important;
+        background-color: #000 !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 100 !important;
+        transition: 800ms;
+        min-height: 100vh;
+        gap: 50px !important;
+    }
+
+    label[for="checkbox"] {
+        height: 36px;
+        width: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 200;
+
+    }
+
+    label[for="checkbox"]>span {
+        height: 8px;
+        width: 58px;
+        border-radius: 40px;
+        background-color: #ffffff;
+        z-index: 400;
+    }
+
+    .rotates1 {
+        transform: rotate(45deg);
+        margin-top: 18px;
+    }
+
+    .rotates2 {
+        display: none;
+    }
+
+    .rotates3 {
+        transform: rotate(145deg);
+        margin-bottom: 8px;
+    }
+
+    .zz {
+        z-index: 500;
+    }
+
+        
+}

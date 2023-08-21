@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400&family=Sen:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yantramanav:wght@100;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: "recharge";
+    src: url("/assets/recharge/recharge\ bd.ttf");
+}
+
+:root {
+    --ff-primary: 'recharge' ;
+    --ff-secondary: 'Poppins', sans-serif;
+    /* --ff-tertiary: 'Sen', sans-serif; */
+
+    /* --fs-2xs: 13px; */
+    --fs-xs: 16px;
+    --fs-sm: 18px;
+    /* --fs-2sm: 16px; 
+    --fs-3sm: 16px;*/
+    --fs-md: 20px;
+    /* --fs-2md: 17px;
+    --fs-3md: 17px; */
+    --fs-lg: 24px;
+    /* --fs-2lg: 20px;
+    --fs-3lg: 21px;
+    --fs-4lg: 22px; */
+    --fs-xl: 40px;
+    --fs-2xl: 60px;
+    /* --fs-3xl: 45px; */
+
+    /* --extraLarge: 900;
+    --extraBold: 800; */
+    --fw-bold: 700;
+    /* --semiBold: 600;
+    --medium: 500; */
+    --fw-regular: 400;
+
+    --primary-color: #02cdcf;
+    --secondary-color: #0b0a0a;
+    --tertiary-color: #fcfcfc;
+    --white-color: #FFF;
+    --black-color: #000000;
+     --dark-color: #040404 !important;
+    /*--danger-color: #F66F4D;
+    --paragraph-color: #5B5F62;
+    --footer-links: #676A6C;
+    --header-card-color: #9498A4;
+    --box-color: #FFD482;
+    --animation-color: #EE8162; */
+}
+
+/* font-family */
+.ff_primary {
+    font-family: var(--ff-primary);
+}
+
+.ff_secondary {
+    font-family: var(--ff-secondary);
+}
+
+/* font-size */
+.fs_xs {
+    font-size: var(--fs-xs);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+
+/* font-weight */
+.fw_bold {
+    font-weight: var(--fw-bold);
+}
+
+.fw_regular {
+    font-weight: var(--fw-regular);
+}
+
+/* font-color */
+.primary_color {
+    color: var(--primary-color);
+}
+
+.secondary_color {
+    color: var(--secondary-color);
+}
+
+.tertiary_color {
+    color: var(--tertiary-color);
+}
+
+.white_color {
+    color: var(--white-color);
+}
+
+.black_color {
+    color: var(--black-color);
+}
+
+/* color */
+.dark_color{
+    background-color: var(--dark-color);
+}

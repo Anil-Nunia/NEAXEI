@@ -17,7 +17,7 @@
     background-color: #ffffff;
 }
 .hero_bg_img {
-    background-image: url(../image/png/Groupimg55.png);
+    background-image: url(../image/png/hero.bgimg.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -143,15 +143,23 @@
     justify-content: center;
     align-items: center;
 }
-
+.box1:hover{
+    background-color:#02cdcf ;
+    transition: 400ms;
+}
 .hero2_bg_img {
-    background-image: url(../image/png/bg-imgFrame21.png);
+    background-image: url(../image/png/ai-imgs.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-
+.bg_footer_img{
+    background-image: url(../image/png/fotrRectangl8.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 .imggrupf {
     border-radius: 100%;
 }

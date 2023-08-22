@@ -8,29 +8,15 @@
 :root {
     --ff-primary: 'recharge' ;
     --ff-secondary: 'Poppins', sans-serif;
-    /* --ff-tertiary: 'Sen', sans-serif; */
 
-    /* --fs-2xs: 13px; */
     --fs-xs: 16px;
     --fs-sm: 18px;
-    /* --fs-2sm: 16px; 
-    --fs-3sm: 16px;*/
     --fs-md: 20px;
-    /* --fs-2md: 17px;
-    --fs-3md: 17px; */
     --fs-lg: 24px;
-    /* --fs-2lg: 20px;
-    --fs-3lg: 21px;
-    --fs-4lg: 22px; */
     --fs-xl: 40px;
     --fs-2xl: 60px;
-    /* --fs-3xl: 45px; */
 
-    /* --extraLarge: 900;
-    --extraBold: 800; */
     --fw-bold: 700;
-    /* --semiBold: 600;
-    --medium: 500; */
     --fw-regular: 400;
 
     --primary-color: #02cdcf;
@@ -39,12 +25,6 @@
     --white-color: #FFF;
     --black-color: #000000;
      --dark-color: #040404 !important;
-    /*--danger-color: #F66F4D;
-    --paragraph-color: #5B5F62;
-    --footer-links: #676A6C;
-    --header-card-color: #9498A4;
-    --box-color: #FFD482;
-    --animation-color: #EE8162; */
 }
 
 /* font-family */

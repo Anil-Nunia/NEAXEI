@@ -228,7 +228,7 @@
 .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 8px;
     background-color: #02CDCF;
     top: 0;
     bottom: 20px;
@@ -275,7 +275,6 @@
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: ;
     position: relative;
     border-radius: 6px;
 }
